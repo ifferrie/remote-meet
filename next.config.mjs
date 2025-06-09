@@ -1,8 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'out',
+  output: 'export',
   basePath: '/remote-meet',
-  assetPrefix: '/remote-meet/',
   eslint: {
     ignoreDuringBuilds: true,
   },
