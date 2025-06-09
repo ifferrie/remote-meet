@@ -32,10 +32,10 @@ jobs:
       - name: Build
         run: pnpm build
 
-      - name: Move output to subfolder
-        run: |
-          mkdir -p public/remote-meet
-          cp -r out/* public/remote-meet/
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./out
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
