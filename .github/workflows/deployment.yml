@@ -30,7 +30,7 @@ jobs:
         run: pnpm install
 
       - name: Build
-        run: pnpm build && pnpm export
+        run: pnpm build
 
       - name: Move output to subfolder
         run: |
