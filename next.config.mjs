@@ -2,7 +2,6 @@
 const nextConfig = {
   output: 'out',
   basePath: '/remote-meet',
-  assetPrefix: '/remote-meet/',
   eslint: {
     ignoreDuringBuilds: true,
   },
