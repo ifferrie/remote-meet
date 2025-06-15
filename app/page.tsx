@@ -176,7 +176,7 @@ export default function TimeZoneScheduler() {
         <div className="text-center space-y-2">
           <h1 className="text-3xl font-bold text-gray-900 flex items-center justify-center gap-2">
             <Clock className="h-8 w-8 text-blue-600" />
-            TimeSync
+            Remote Meet
           </h1>
           <p className="text-gray-600">Find the perfect meeting time across time zones</p>
         </div>
